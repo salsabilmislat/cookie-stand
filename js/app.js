@@ -369,13 +369,13 @@ console.log(Seattle);
 let Tokyo = new SalmonCookies('Tokyo', 3, 24, 1.2);
 console.log(Tokyo);
 
-let Dubai = new SalmonCookies('Dubai', 23, 65, 6.3);
+let Dubai = new SalmonCookies('Dubai', 11, 38, 3.7);
 console.log(Dubai);
 
-let Paris = new SalmonCookies('Paris', 23, 65, 6.3);
+let Paris = new SalmonCookies('Paris', 20, 38, 2.3);
 console.log(Paris);
 
-let Lima = new SalmonCookies('Lima', 23, 65, 6.3);
+let Lima = new SalmonCookies('Lima', 2, 16, 4.6);
 console.log(shopNames);
 
 
