@@ -1,8 +1,4 @@
-* {
-    font-family: Arial, sans-serif;
-  }
-  
-  table {
+table {
     border: solid black 1px;
   }
   th {
@@ -12,3 +8,82 @@
   td{
     border: solid black 1px;
   }
+body{
+  font-family: 'Lobster', cursive;
+  background-color: aliceblue;
+}
+
+  header {
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(41, 74, 104);
+}
+nav{
+  width: 100%;
+ float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 5px solid #ddd; 
+  border-top: 1px solid #ccc;
+}
+
+nav ul {
+  margin-left: 200px;
+}
+nav ul li {
+  list-style: none;
+ float:left;
+  padding: 20px;
+  color: rgb(139, 139, 139);
+  
+}
+nav ul li a {
+  display: block;
+  padding: 5px 5px;
+   font-size: 20px;
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.411);
+  margin-top: 35px;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background-color: #000; 
+  -moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px; 
+}
+  
+  h2,h3 {
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(41, 74, 104);
+  }
+ul li {
+  color: rgb(41, 74, 104);
+  text-align: center;
+  font-size:x-large;
+}
+p{
+  font-size: 30px;
+  color: rgb(88, 130, 170);
+  margin-left: 50px;
+}
+footer h2 {
+  color: #000;
+}
+
+img{
+  
+  margin-left: 80px;
+ 
+  
+}
