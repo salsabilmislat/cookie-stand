@@ -1,10 +1,15 @@
 table {
     border: solid black 1px;
+    margin-left: 209px;
+    text-align: center;
+    color: #D97783;
   }
   th {
     border: solid black 1px;
   }
-  
+  tr {
+    border: solid black 1px;
+  }
   td{
     border: solid black 1px;
   }
@@ -76,6 +81,7 @@ p{
   font-size: 30px;
   color: rgb(88, 130, 170);
   margin-left: 50px;
+  padding: 57px;
 }
 footer h2 {
   color: #000;
@@ -83,7 +89,23 @@ footer h2 {
 
 img{
   
-  margin-left: 80px;
+  margin-left: 190px;
  
   
+}
+#Cform{
+  width: 74%;
+  text-align: center;
+  color: rgb(41, 74, 104);
+}
+#locationForm{
+  display: inline-block;
+    margin-left: 626px;
+}
+footer{
+  margin-top: 60px;
+width: 80%;
+   height: 100px;
+   margin-left: 200px;
+    font-size: 30px;
 }

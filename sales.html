@@ -18,7 +18,25 @@
         </nav>
       </header>
       <main>
-        <h2>locations sales:</h2>
+        <form id="locationForm">
+          <fieldset id="Cform">
+          <legend>Adding New Locations</legend>
+          <label for="nameField">Location Name: </label>
+          <input type="text" id="nameField">
+          <br>
+          <label for="newMin">Minimum: </label>
+          <input type="number" id="newMin">
+          <br>
+          <label for="newMax">Maximum: </label>
+          <input type="number" id="newMax">
+          <br>
+          <label for="newAverage">Average: </label>
+          <input  scale="0.1" id="newAverage">
+          <br>
+          <input type="submit" value="submit">
+        </fieldset>
+        </form>
+        <h2>Locations Sales Table:</h2>
         <!--<div id="Seattleprofile"></div>
         <div id="Tokyoeprofile"></div>
         <div id="Dubaiprofile"></div>
@@ -26,6 +44,7 @@
         <div id="Limaprofile"></div>-->
         <div id="locationsprofile"> </div>
       </main>
+      <footer></footer>
     <script src="js/app.js"></script>
 </body>
 </html>
